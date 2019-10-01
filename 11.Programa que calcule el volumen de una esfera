@@ -1,0 +1,11 @@
+#include <iostream>
+#include <math.h>
+#define PI 3.1614
+using namespace std;
+int main (){
+
+int radio, volumen;
+cout<<"ingrese el radio de la esfera"<<endl; cin>>radio;
+volumen = 4/3*PI*pow(radio,3);
+cout<<"el volumen de la esfera es igual a "<<volumen<<endl;
+}
