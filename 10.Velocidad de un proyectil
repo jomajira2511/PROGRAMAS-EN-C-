@@ -1,0 +1,11 @@
+#include <iostream>
+using namespace std;
+int main(){
+float km,t,velfin;
+cout<<"ingrese los kilometros recorridos"<<endl; cin>>km;
+cout<<"ingrese el tiempo"<<endl; cin>>t;
+velfin= km/t;
+cout<<"la velocidad fue "<<velfin<<"metros por segundo"<<endl;
+
+return main();
+}
