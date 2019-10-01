@@ -1,0 +1,16 @@
+#include <iostream>
+#include <math.h>
+#define PI 3.1416;
+
+using namespace std;
+int main (){
+int radio, area, longitud;
+cout<<"ingrese el radio de la circunferencia "<<endl; cin>>radio;
+area = pow(radio,2)*PI;
+longitud = 2*radio*PI;
+cout<<"el area de la circunferencia es igual a "<<area<<endl;
+cout<<"la longitud de la circunferencia es igual a "<<longitud<<endl;
+
+return main ();
+
+}
