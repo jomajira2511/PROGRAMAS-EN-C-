@@ -8,4 +8,5 @@ int radio, volumen;
 cout<<"ingrese el radio de la esfera"<<endl; cin>>radio;
 volumen = 4/3*PI*pow(radio,3);
 cout<<"el volumen de la esfera es igual a "<<volumen<<endl;
+return 0();
 }
