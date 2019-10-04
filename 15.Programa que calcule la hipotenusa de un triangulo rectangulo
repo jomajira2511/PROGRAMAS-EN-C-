@@ -1,0 +1,11 @@
+#include <iostream>
+#include <math.h>
+using namespace std; 
+int main(){
+float a,b,h;
+cout<<"ingrese el lado a "<<endl; cin>>a;
+cout<<"ingrese el lado b "<<endl; cin>>b;
+h=(sqrt(pow(a,2)+(pow(b,2))));
+cout<<"la hipotenusa del triangulo rectangulo es igual a "<<h<<endl;
+return 0 ;
+}
