@@ -1,0 +1,10 @@
+#include <iostream>
+using namespace std; 
+int main(){
+float a,b,op;
+cout<<"ingrese a "<<endl; cin>>a;
+cout<<"ingrese b "<<endl; cin>>b;
+op=(((((a+5)*3)/2)*b)-b);
+cout<<" el resultado de la operacion es igual a "<<op<<endl;
+return 0 ;
+}
